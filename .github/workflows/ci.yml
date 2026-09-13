@@ -1,0 +1,56 @@
+name: RaceDay Part 1 CI
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check-repository-structure:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate repository structure
+        run: |
+          echo "Checking RaceDay repository structure..."
+
+          if [ -d "docs" ]; then
+            echo "docs folder found"
+          else
+            echo "docs folder is missing"
+            exit 1
+          fi
+
+          if [ -f "docs/Race day ERD.pdf" ]; then
+            echo "Race day ERD.pdf found"
+          else
+            echo "Race day ERD.pdf is missing"
+            exit 1
+          fi
+
+          if [ -f "docs/RaceDay API Endpoint Plan.pdf" ]; then
+            echo "RaceDay API Endpoint Plan.pdf found"
+          else
+            echo "RaceDay API Endpoint Plan.pdf is missing"
+            exit 1
+          fi
+
+          if [ -f "docs/RaceDay_Database.sql" ]; then
+            echo "RaceDay_Database.sql found"
+          else
+            echo "RaceDay_Database.sql is missing"
+            exit 1
+          fi
+
+          echo "================================"
+          echo "Repository structure is valid!"
+          echo "All required Part 1 files found!"
+          echo "CI CHECK PASSED"
+          echo "================================"
