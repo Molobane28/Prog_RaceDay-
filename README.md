@@ -554,7 +554,8 @@ The screenshot below will show the successful SQL queries and their returned res
 
 ```text
 
-\\\[INSERT ONE SQL DATABASE RESULTS SCREENSHOT HERE]
+<img width="792" height="606" alt="image" src="https://github.com/user-attachments/assets/5d5c271c-59af-4857-b58d-00a6cc0b0b18" />
+
 
 ```
 
@@ -966,7 +967,8 @@ The workflow verifies:
 
 
 
-```workflow screenshot
+<img width="1027" height="193" alt="image" src="https://github.com/user-attachments/assets/a7f10c07-2165-4fa8-9b39-ae78d0ff1d44" />
+
 
 
 
