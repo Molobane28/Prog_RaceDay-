@@ -994,7 +994,7 @@ A YouTube video demonstrating the RaceDay Part 1 work is provided below.
 
 ```text
 
-\\\[PASTE YOUR YOUTUBE LINK HERE]
+\\\[https://youtu.be/WKEsKFEZxCY]
 
 ```
 
@@ -1046,12 +1046,10 @@ The following Part 1 deliverables are included in the repository:
 
 | GitHub Actions Workflow | `/.github/workflows/ci.yml`           | Tested         |
 
-| CI Success Screenshot   | README                                | To be inserted |
+| CI Success Screenshot   | README                                
 
-| SQL Results Screenshot  | README                                | To be inserted |
-
-| YouTube Link            | README                                | To be inserted |
-
+| SQL Results Screenshot  | README                                
+| YouTube Link            | README                                
 
 
 \---
@@ -1098,7 +1096,7 @@ The following Part 1 deliverables are included in the repository:
 
 
 
-\*\*YouTube demonstration:\*\* `\\\[PASTE YOUR YOUTUBE LINK HERE]`
+\*\*YouTube demonstration:\*\* `\\\[https://youtu.be/WKEsKFEZxCY]`
 
 
 
