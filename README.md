@@ -994,7 +994,7 @@ A YouTube video demonstrating the RaceDay Part 1 work is provided below.
 
 ```text
 
-\\\[https://youtu.be/WKEsKFEZxCY]
+\\\[https://youtu.be/w1LWbA8Zq7w]
 
 ```
 
@@ -1096,7 +1096,7 @@ The following Part 1 deliverables are included in the repository:
 
 
 
-\*\*YouTube demonstration:\*\* `\\\[https://youtu.be/WKEsKFEZxCY]`
+\*\*YouTube demonstration:\*\* `https://youtu.be/w1LWbA8Zq7w]`
 
 
 
